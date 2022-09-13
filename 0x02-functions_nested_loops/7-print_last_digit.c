@@ -7,7 +7,7 @@
  * Return: integer
  */
 
-int print_last_digit b;
+int print_last_digit (int b)
 {
 	int last = b  % 10;
 
@@ -17,4 +17,8 @@ int print_last_digit b;
 	_putchar(last + '0');
 
 	return (last);
+
 }
+
+
+
