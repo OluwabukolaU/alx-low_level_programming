@@ -25,7 +25,7 @@ int main(void)
 	a = i % 1000;
 	x = i / 1000;
 	b = j % 1000;
-	y = j / 1000;
+	j = j / 1000;
 
 	while (count <= 98)
 	{
@@ -48,3 +48,8 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
+
+
+
+
