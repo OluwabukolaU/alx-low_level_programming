@@ -5,7 +5,6 @@
  * the end of the string pointed to by @dest
  * @dest: string to be appende
  * @src: string to be concatenated
- *
  * Return: pointer to @dest
  */
 
